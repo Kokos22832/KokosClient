@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kokosclient",
+  "version": "1.0.0",
+  "name": "KokosClient",
+  "description": "🥥 Кокосовый чит для Minecraft 1.21.4",
+  "authors": ["Kokos22832"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kokos.client.KokosClient"
+    ]
+  },
+  "mixins": [
+    "kokosclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
